@@ -1,0 +1,14 @@
+.kol,.power{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    justify-content: space-around;
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+}
+table,td,th{
+    border: 1px solid gray;
+}

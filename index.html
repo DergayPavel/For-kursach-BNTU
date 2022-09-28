@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex.css">
+</head>
+<body>
+    <div class="block">
+        <div class="power">
+            Мощность станка
+            <input type="number" name="power" id="powerInp">
+        </div>
+        <div class="kol">
+            Количество станков
+            <input type="number" name="kolInp" id="kolInp">
+        </div>
+        <button id="addStan">Добавить станок</button>
+        <button id="clear">Очистить данные</button>
+    </div>
+    
+    <div class="kol">
+        <button id="kolDvig">Посчитать количество двигателей</button>
+        <span id="result1"></span>
+    </div>
+    <table id="tableMotor">
+        <tr><th>Номер</th><th>Мощность</th><th>Количество</th></tr> <!--ряд с ячейками заголовков-->
+        </table>
+    <script src="ex.js"></script>
+
+</body>
+</html>
